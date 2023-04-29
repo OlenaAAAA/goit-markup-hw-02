@@ -12,6 +12,8 @@ button {
 body {
   font-family: roboto, sans-serif;
   font-style: normal;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 :root {
@@ -22,7 +24,7 @@ body {
   color: var(--color);
   width: 44px;
   height: 21px;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -31,7 +33,7 @@ body {
 }
 .logo-studio {
   color: var(--accent-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
