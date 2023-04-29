@@ -10,35 +10,31 @@ button {
   cursor: pointer;
 }
 body {
-  font-family: roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: #434455;
-  background-color: #ffffff;
+  background-color: --bodycolor#ffffff;
 }
 
 :root {
   --accent-color: #2e2f42;
   --color: #4d5ae5;
 }
-.logo-web {
-  color: var(--color);
-  width: 44px;
-  height: 21px;
+
+.logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1, 17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.logo {
+  color: var(--color);
+}
 .logo-studio {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .logo-studio-theme-dark {
@@ -53,8 +49,14 @@ body {
   color: var(--accent-color);
 }
 
-.contact-tel,
-.mail {
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
+/* ADDRESS */
+
+.address-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,6 +66,11 @@ body {
 }
 
 /* після натискання */
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
 /* 
 .mail:visited,
 .menu-item:visited {
