@@ -10,29 +10,28 @@ button {
   cursor: pointer;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   color: #434455;
-  background-color: --bodycolor#ffffff;
+  background-color: var(--bodycolor)
 }
 
 :root {
   --accent-color: #2e2f42;
   --color: #4d5ae5;
+  --bodycolor:#ffffff;
 }
 
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo {
   color: var(--color);
 }
+
 .logo-studio {
   color: var(--accent-color);
 }
@@ -71,35 +70,6 @@ body {
   color: #404bbf;
 }
 
-/* 
-.mail:visited,
-.menu-item:visited {
-  color: #404bbf;
-} */
-/* 
-.menu-list .menu-item:active {
-  color: #404bbf;
-} */
-
-/* .link:active {
-  color: #404bbf;
-} */
-*/
-
-/* FOOTER */
-
-.main-footer {
-  background-color: var(--accent-color);
-}
-
-.footer-text {
-  color: #f4f4fd;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  background-color: var(--accent-color);
-}
 
 /* HERO */
 
@@ -110,12 +80,14 @@ body {
 .hero-tittle {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.7;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .modal-open-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -129,7 +101,7 @@ body {
   background-color: #404bbf;
 }
 
-.li-h3-header {
+.li-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -148,11 +120,36 @@ body {
 .section-name {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center
   text-transform: capitalize;
   color: var(--accent-color);
 }
+
+.section-team {
+  background-color: #F4F4FD
+}
+
+.section-list-item {
+  background-color: #FFFFFF
+}
+
+/* FOOTER */
+
+.main-footer {
+  background-color: var(--accent-color);
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background-color: var(--accent-color);
+}
+
 
 /* ПОРТФОЛІО КНОПКИ */
 
