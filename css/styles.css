@@ -12,13 +12,13 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
   color: #434455;
-  background-color: var(--bodycolor)
+  background-color: var(--bodycolor);
 }
 
 :root {
   --accent-color: #2e2f42;
   --color: #4d5ae5;
-  --bodycolor:#ffffff;
+  --bodycolor: #ffffff;
 }
 
 .logo {
@@ -70,7 +70,7 @@ body {
 }
 
 .header-tel-mail {
-  font-style: normal
+  font-style: normal;
 }
 
 /* HERO */
@@ -140,11 +140,11 @@ body {
 }
 
 .section-team {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 
 .section-list-item {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 /* FOOTER */
@@ -162,11 +162,9 @@ body {
   background-color: var(--accent-color);
 }
 
-
 /* ПОРТФОЛІО КНОПКИ */
 
 .modal-btn-portfolio {
-  font-family: Roboto, sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -178,9 +176,8 @@ body {
   background-color: #f4f4fd;
 }
 
-
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
   color: var(--bodycolor);
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
