@@ -1,5 +1,4 @@
-ul,
-ol {
+list {
   list-style: none;
 }
 .link {
@@ -166,17 +165,8 @@ body {
 
 /* ПОРТФОЛІО КНОПКИ */
 
-.modal-btn-portfolio-all {
-  font-family: Roboto, sans-serif 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: var(--color);
-}
-
 .modal-btn-portfolio {
+  font-family: Roboto, sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -186,4 +176,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--color);
   background-color: #f4f4fd;
+}
+
+
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+  color: var(--bodycolor);
+  background-color: #404BBF;
 }
