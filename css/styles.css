@@ -11,7 +11,7 @@ button {
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
-  color: #434455;
+  color: var(--slate-color);
   background-color: var(--bodycolor);
 }
 
@@ -19,6 +19,9 @@ body {
   --accent-color: #2e2f42;
   --color: #4d5ae5;
   --bodycolor: #ffffff;
+  --cloud-color: #f4f4fd;
+  --ocean-color: #404bbf;
+  --slate-color: #434455;
 }
 
 .logo {
@@ -36,20 +39,20 @@ body {
 }
 
 .logo-studio-theme-dark {
-  color: #f4f4fd;
+  color: var(--cloud-color);
 }
 
 .menu-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5px;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
 .menu-item:hover,
 .menu-item:focus {
-  color: #404bbf;
+  color: var(--ocean-color);
 }
 
 /* ADDRESS */
@@ -58,15 +61,15 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate-color);
 }
 
 /* після натискання */
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  color: var(--ocean-color);
 }
 
 .header-tel-mail {
@@ -84,7 +87,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--bodycolor);
   text-align: center;
 }
 
@@ -92,15 +95,15 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--bodycolor);
   background-color: var(--color);
 }
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean-color);
 }
 
 .li-header {
@@ -114,9 +117,9 @@ body {
 .paragraf-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate-color);
 }
 
 .section-name {
@@ -140,11 +143,11 @@ body {
 }
 
 .section-team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud-color);
 }
 
 .section-list-item {
-  background-color: #ffffff;
+  background-color: var(--bodycolor);
 }
 
 /* FOOTER */
@@ -154,10 +157,10 @@ body {
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: var(--cloud-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--accent-color);
 }
@@ -168,17 +171,17 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--color);
-  background-color: #f4f4fd;
+  background-color: var(--cloud-color);
 }
 
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
   color: var(--bodycolor);
-  background-color: #404bbf;
+  background-color: var(--ocean-color);
 }
